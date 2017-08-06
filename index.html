@@ -66,11 +66,10 @@ details {
 <body>
 
 <section>
-  <video width="400" autoplay controls>
-    <source src="Google_Developer_Stories.webm" type='video/webm; codecs="vp8, vorbis"'>
+  <audio src="la1-1.mp3">
     <track label="English subtitles" kind="subtitles" srclang="en" src="la1-1.vtt" default>
     Your browser does not support the video tag
-  </video>
+  </audio>
   <div><div>test1</div><div>asdf2</div></div>
 </section>
 
@@ -79,7 +78,7 @@ if (!document.createElement('track').track)  {
   alert('<track is not available in your browser.');
 }
 
-var video = document.querySelector('video');
+var video = document.querySelector('audio');
 var span1 = document.querySelector('section > div :first-child');
 var span2 = document.querySelector('section > div :last-of-type');
 
